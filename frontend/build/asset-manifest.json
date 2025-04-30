@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.670e03df.css",
+    "main.js": "/static/js/main.c894e522.js",
+    "static/media/dp1.jpg": "/static/media/dp1.0a114121dd74a5f09a62.jpg",
+    "static/media/coverimg.png": "/static/media/coverimg.7b09c5d5c12c37074529.png",
+    "static/media/smart-bg.png": "/static/media/smart-bg.edd8f4bffd9736764e6a.png",
+    "static/media/camera 1.jpg": "/static/media/camera 1.756cdab5925736e220df.jpg",
+    "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
+    "static/media/cart.png": "/static/media/cart.4d794a04676916d13452.png",
+    "index.html": "/index.html",
+    "main.670e03df.css.map": "/static/css/main.670e03df.css.map",
+    "main.c894e522.js.map": "/static/js/main.c894e522.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670e03df.css",
+    "static/js/main.c894e522.js"
+  ]
+}
