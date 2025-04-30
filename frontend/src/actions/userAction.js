@@ -107,6 +107,7 @@ export const loadUser = () => async (dispatch) => {
 
     
   } catch (error) {
+    console.log("load user error ",error)
     dispatch({
       type:LOAD_USER_FAIL,
       payload: error.response.data.message || "Something went wrong"

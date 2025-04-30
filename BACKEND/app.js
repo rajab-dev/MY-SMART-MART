@@ -1,10 +1,11 @@
+// process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const  express  = require("express")
 const  cookieParser = require("cookie-parser")
 const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const dotenv =  require("dotenv")
 const path = require("path");
-
+const cors = require("cors");
 
 const app = express();
 app.use(cookieParser())
@@ -15,6 +16,11 @@ const errorMiddleware = require("./middlewares/error")
 if (process.env.NODE_ENV !== "PRODUCTION") {
 dotenv.config({path:"BACKEND/config/config.env"})
 }
+
+app.use(cors({
+  origin: "*",
+  credentials: true,
+}));
 
 app.use(express.json())
 app.use(bodyParser.urlencoded({extended:true}));
